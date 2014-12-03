@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
+</head>
+<body>
+  <div>
+      <ul>
+          <li><a href="pos_index.html">Let's Go</a></li>
+          <li class="active"><a href="pos_index.html">主页</a></li>
+          <li><a href="item.html">商品列表</a></li>
+      </ul>
+      <ul>
+          <li><a href="cart.html">购物车</a></li>
+      </ul>
+  </div>
+
+  <div>
+      <div>
+          <h1><b>Welcome to Let's Go!</b></h1>
+          <p>商店里进行购物结算时会使用收银机（POS）系统，这台收银机会在结算时根据客户的购物车（Cart）中的商品（Item）和商店正在进行的
+              优惠活动（Promotions）进行结算和打印购物清单。已知该商店正在对部分商品进行"买二赠一"的优惠活动。我们需要实现一个名为
+              printInventory函数，该函数能够再将指定格式的数据作为参数输入，然后在浏览器的控制台中输出计算结清单的文本。</p>
+      </div>
+      <div>
+         <button>Let's Go</button>
+      </div>
+  </div>
+
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
+  <script src="../bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+  <script src="scripts/model/item.js" type="text/javascript"></script>
+  <script src="scripts/model/cart.js" type="text/javascript"></script>
+  <script src="scripts/model/fixtures.js" type="text/javascript"></script>
+  <script src="scripts/model/promotion.js" type="text/javascript"></script>
+  <script type="text/javascript" src="scripts/pubFunc.js"></script>
+  <script type="text/javascript">
+      $(document).ready(
+              function(){$("#lets_go").click(function(){window.location.href="item.html";});}
+      );
+  </script>
+
+</body>
+</html>
