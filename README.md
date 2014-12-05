@@ -18,9 +18,9 @@ printInventory函数，该函数能够再将指定格式的数据作为参数输
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
 </head>
 
-+ 我是无序列表第一行
-+ 我是第二行
-+ 我是第三行
+- 我是无序列表第一行
+- 我是第二行
+- 我是第三行
 
 1. 我是有序列第一行
 2. 我是第二行
