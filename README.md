@@ -28,10 +28,10 @@ printInventory函数，该函数能够再将指定格式的数据作为参数输
 
 [codefordream](http://www.codefordream.com/)
 
-![图片]（/home/zh/图片/u=1725947778,2446210648&fm=23&gp=0.jpg）
+
 ![google](https://www.google.com.hk/images/srpr/logo11w.png)
 ![Alt text][id]
-[id]: http://image.baidu.com/detail/newindex?col=%E6%91%84%E5%BD%B1&tag=%E5%85%A8%E9%83%A8&pn=2&pid=13610972880&aid=&user_id=992488454&setid=125592&sort=0&from=1/to/image  "Optional title attribute"
+[id]:https://www.google.com.hk/images/srpr/logo11w.png 
 
 *pos_jquery*
 __pospospos__
