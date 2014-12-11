@@ -3,8 +3,19 @@
  */
 
 $(document).ready(function(){
-        make_items_table()
+        make_items_table();
+       var inputs=new Array();
+        $("button[name='add']").click(
+            function(){
 
+//                console.log(typeof JSON.parse(sessionStorage.inputs))
+                inputs.push({barcode:$(this).attr('value')})
+                $("a[href='cart.html']").text("购物车( "+ inputs.length.toString()+" )")
+
+            }
+        )
+//        sessionStorage.inputs = inputs
+        session.setAttribute('inputs',inputs)
     }
 )
 
@@ -17,7 +28,7 @@ function make_items_table(){
             +item.name+"</td> <td>"
             +item.price+"</td> <td>"
             +item.unit+"</td> <td>" +
-            "<button name='add' value='"+item.barcode+"' class='btn-lg btn-primary btn btn-sm'>加入购物车</button>"
+            "<button name='add'  value='"+item.barcode+"' class='btn-lg btn-primary btn btn-sm'>加入购物车</button>"
             +"</td> </tr>"
         content+=tr
         return content
