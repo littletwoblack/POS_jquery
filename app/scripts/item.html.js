@@ -12,10 +12,11 @@ $(document).ready(function(){
                 inputs.push({barcode:$(this).attr('value')})
                 $("a[href='cart.html']").text("购物车( "+ inputs.length.toString()+" )")
 
+                sessionStorage.setItem("inputs_str",inputs)
+                console.log("inputs_str");
             }
         )
-//        sessionStorage.inputs = inputs
-        session.setAttribute('inputs',inputs)
+
     }
 )
 
