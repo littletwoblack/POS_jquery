@@ -2,7 +2,7 @@
  * Created by zh on 14-12-6.
  */
 $(document).ready(function(){
-       var inputs =session.getAttribute('inputs')
+       var inputs =sessionStorage.getItem("inputs_str")
     console.log('inputs')
     if(inputs.length == 0)
     {

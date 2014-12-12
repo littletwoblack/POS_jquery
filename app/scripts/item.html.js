@@ -4,6 +4,7 @@
 
 $(document).ready(function(){
         make_items_table();
+
        var inputs=new Array();
         $("button[name='add']").click(
             function(){
@@ -12,8 +13,10 @@ $(document).ready(function(){
                 inputs.push({barcode:$(this).attr('value')})
                 $("a[href='cart.html']").text("购物车( "+ inputs.length.toString()+" )")
 
-                sessionStorage.setItem("inputs_str",inputs)
-                console.log("inputs_str");
+                sessionStorage.setItem("inputs_str",JSON.stringify(inputs))
+//                console.log("123");
+//                console.log((sessionStorage.getItem('inputs_str')));
+//                console.log("111");
             }
         )
 
