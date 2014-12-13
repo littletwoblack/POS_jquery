@@ -34,7 +34,12 @@ console.log(barcode);
 }
 function get_allinformation(purchase){
     var allitem=loadAllItems();
-    _.map(purchase,function(){
-        var b= _.indexOf()
+    _.map(purchase,function(item){
+        var b= _.indexOf(_.pluck(allitem,'barcode'),item.barcode)
+        item.name=allitem[b].name;
+        item.price=allitem[b].price;
+        item.unit=allitem[b].unit;
+        item.group=allitem[b].group;
+        return purchase
     })
 }
