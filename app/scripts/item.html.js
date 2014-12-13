@@ -9,8 +9,8 @@ $(document).ready(function(){
         $("button[name='add']").click(
             function(){
 
-//                console.log(typeof JSON.parse(sessionStorage.inputs))
                 inputs.push({barcode:$(this).attr('value')})
+
                 $("a[href='cart.html']").text("购物车( "+ inputs.length.toString()+" )")
 
                 sessionStorage.setItem("inputs_str",JSON.stringify(inputs))
