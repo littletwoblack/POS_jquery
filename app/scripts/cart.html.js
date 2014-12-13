@@ -11,8 +11,8 @@ $(document).ready(function(){
     else
     {
        $("a[href='cart.html']").text("购物车（"+inputs.length.toString()+")")
-        var test = make_purchase(inputs)
-        console.log(test) ;
+        var test = new cart(inputs)
+        console.log(test.get_totall) ;
     }
 }
 )
