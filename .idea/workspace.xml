@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/app/scripts/cart.html.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -95,8 +95,8 @@
       <file leaf-file-name="purchase.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/module/purchase.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45045045" vertical-offset="0" max-vertical-offset="666">
-              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.4804805" vertical-offset="0" max-vertical-offset="666">
+              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
               <folding>
                 <element signature="e#0#37#0" expanded="false" />
                 <element signature="n#!!block;n#make_purchase#0" expanded="false" />
@@ -104,6 +104,7 @@
                 <element signature="n#!!block;n#get_allinformation#0" expanded="false" />
                 <element signature="n#!!block;n#set_promotion_flag#0" expanded="false" />
                 <element signature="n#!!block;n#get_totall#0" expanded="false" />
+                <element signature="n#!!block;n#get_all_promotion#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -768,14 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.620689" vertical-offset="716" max-vertical-offset="1420">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/item.html.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="960">
@@ -784,10 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/cart.html.js">
+    <entry file="file://$PROJECT_DIR$/app/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state vertical-scroll-proportion="-14.620689" vertical-offset="716" max-vertical-offset="1420">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -800,10 +793,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/cart.html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/module/purchase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45045045" vertical-offset="0" max-vertical-offset="666">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.4804805" vertical-offset="0" max-vertical-offset="666">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
             <element signature="e#0#37#0" expanded="false" />
             <element signature="n#!!block;n#make_purchase#0" expanded="false" />
@@ -811,6 +812,7 @@
             <element signature="n#!!block;n#get_allinformation#0" expanded="false" />
             <element signature="n#!!block;n#set_promotion_flag#0" expanded="false" />
             <element signature="n#!!block;n#get_totall#0" expanded="false" />
+            <element signature="n#!!block;n#get_all_promotion#0" expanded="false" />
           </folding>
         </state>
       </provider>

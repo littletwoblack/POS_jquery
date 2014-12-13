@@ -6,7 +6,7 @@ var purchase = new Array()
 function cart(inputs){
 this.purchase=make_purchase(inputs)
 this.get_totall=get_totall(this.purchase)
-
+this.get_all_promotion = get_all_promotion(this.purchase)
 }
 
 function make_purchase(inputs)
@@ -68,4 +68,14 @@ function get_totall(purchase){
         }
     })
     return sum
+}
+function get_all_promotion(purchase){
+    var sum_promotion=0
+    _.map(purchase,function(item){
+        if(item.promotion_flag==1&&item.count>=3)
+        {
+            sum_promotion+=(item.price*parseInt(item.count/3))
+        }
+    })
+    return sum_promotion
 }

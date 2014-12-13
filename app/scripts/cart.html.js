@@ -12,7 +12,7 @@ $(document).ready(function(){
     {
        $("a[href='cart.html']").text("购物车（"+inputs.length.toString()+")")
         var test = new cart(inputs)
-        console.log(test.get_totall) ;
+        console.log(test.get_all_promotion) ;
     }
 }
 )
